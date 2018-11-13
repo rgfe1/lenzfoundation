@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Grant_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>App_Grant_List_View</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>App_Grant_List_View</fullName>
+        <fields>Name</fields>
+        <fields>Grant_Date__c</fields>
+        <fields>Amount__c</fields>
+        <fields>Grant_Status__c</fields>
+        <fields>Grant_Type__c</fields>
+        <fields>CreatedById</fields>
+        <label>App Grant List View</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores data about grants</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Amount__c</fullName>
+        <description>Money that will be granted</description>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>12</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Category__c</fullName>
+        <description>List that helps to group the grant by Category</description>
+        <externalId>false</externalId>
+        <label>Grant Category</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Grant_Category</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Grant_Date__c</fullName>
+        <description>As of date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>As of date</inlineHelpText>
+        <label>Grant Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Grant Request that originated this grant</description>
+        <externalId>false</externalId>
+        <label>Grant Request</label>
+        <referenceTo>Grant_Request__c</referenceTo>
+        <relationshipLabel>Grants</relationshipLabel>
+        <relationshipName>Grants</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Status__c</fullName>
+        <description>Informs about the condition of the grant</description>
+        <externalId>false</externalId>
+        <label>Grant Status</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Under Review</fullName>
+                    <default>false</default>
+                    <label>Under Review</label>
+                </value>
+                <value>
+                    <fullName>Pending Grantee Additional Info</fullName>
+                    <default>false</default>
+                    <label>Pending Grantee Additional Info</label>
+                </value>
+                <value>
+                    <fullName>Grant Signed</fullName>
+                    <default>false</default>
+                    <label>Grant Signed</label>
+                </value>
+                <value>
+                    <fullName>Grant Funded</fullName>
+                    <default>false</default>
+                    <label>Grant Funded</label>
+                </value>
+                <value>
+                    <fullName>Completed - Used Funding</fullName>
+                    <default>false</default>
+                    <label>Completed - Used Funding</label>
+                </value>
+                <value>
+                    <fullName>Completed - Returned Funding</fullName>
+                    <default>false</default>
+                    <label>Completed - Returned Funding</label>
+                </value>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Applied</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Applied</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grant_Type__c</fullName>
+        <description>Helps to classify the grant into a group</description>
+        <externalId>false</externalId>
+        <label>Grant Type</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Collaboration</fullName>
+                    <default>false</default>
+                    <label>Collaboration</label>
+                </value>
+                <value>
+                    <fullName>Pay It Forward</fullName>
+                    <default>false</default>
+                    <label>Pay It Forward</label>
+                </value>
+                <value>
+                    <fullName>Partnership</fullName>
+                    <default>false</default>
+                    <label>Partnership</label>
+                </value>
+                <value>
+                    <fullName>Donation</fullName>
+                    <default>false</default>
+                    <label>Donation</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Grant</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Amount__c</columns>
+        <columns>Grant_Date__c</columns>
+        <columns>Grant_Status__c</columns>
+        <columns>Grant_Type__c</columns>
+        <columns>Grant_Category__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Grant_List_View</fullName>
+        <columns>NAME</columns>
+        <columns>Grant_Date__c</columns>
+        <columns>Grant_Status__c</columns>
+        <columns>Grant_Type__c</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>Grant List View</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A{000}</displayFormat>
+        <label>Grant Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Grants</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

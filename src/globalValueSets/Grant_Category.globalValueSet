@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Educational Institutions</fullName>
+        <default>false</default>
+        <label>Educational Institutions</label>
+    </customValue>
+    <customValue>
+        <fullName>End of Life Care</fullName>
+        <default>false</default>
+        <label>End of Life Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Groups Promoting Meditation and Mindfulness</fullName>
+        <default>false</default>
+        <label>Groups Promoting Meditation and Mindfulness</label>
+    </customValue>
+    <customValue>
+        <fullName>Lenz Conferences</fullName>
+        <default>false</default>
+        <label>Lenz Conferences</label>
+    </customValue>
+    <customValue>
+        <fullName>Support for Minorities</fullName>
+        <default>false</default>
+        <label>Support for Minorities</label>
+    </customValue>
+    <customValue>
+        <fullName>Prisons &amp; the Justice System</fullName>
+        <default>false</default>
+        <label>Prisons &amp; the Justice System</label>
+    </customValue>
+    <customValue>
+        <fullName>Retreat Centers</fullName>
+        <default>false</default>
+        <label>Retreat Centers</label>
+    </customValue>
+    <customValue>
+        <fullName>Support of Veterans</fullName>
+        <default>false</default>
+        <label>Support of Veterans</label>
+    </customValue>
+    <customValue>
+        <fullName>At Risk Youth</fullName>
+        <default>false</default>
+        <label>At Risk Youth</label>
+    </customValue>
+    <customValue>
+        <fullName>At Risk Community</fullName>
+        <default>false</default>
+        <label>At Risk Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Buddhist Media</fullName>
+        <default>false</default>
+        <label>Buddhist Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Women in Buddhism</fullName>
+        <default>false</default>
+        <label>Women in Buddhism</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Grant Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

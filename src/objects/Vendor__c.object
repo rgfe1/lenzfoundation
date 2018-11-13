@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Vendor_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Vendor_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Vendor_Phone_Number__c</fields>
+        <fields>Vendor_Email_Address__c</fields>
+        <fields>Vendor_Address__c</fields>
+        <label>Vendor Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Vendors are the organizations whose services we engage for meetings</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Vendor_Address__c</fullName>
+        <description>Number, Street Name, Office Number, etc. Complete mailing address</description>
+        <externalId>false</externalId>
+        <label>Vendor Address</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Category__c</fullName>
+        <description>Organizations whose services LF engages for meetings</description>
+        <externalId>false</externalId>
+        <label>Vendor Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Video / Call Conference Services</fullName>
+                    <default>false</default>
+                    <label>Video / Call Conference Services</label>
+                </value>
+                <value>
+                    <fullName>Website Management</fullName>
+                    <default>false</default>
+                    <label>Website Management</label>
+                </value>
+                <value>
+                    <fullName>Record Management</fullName>
+                    <default>false</default>
+                    <label>Record Management</label>
+                </value>
+                <value>
+                    <fullName>Cloud Hosting Provider</fullName>
+                    <default>false</default>
+                    <label>Cloud Hosting Provider</label>
+                </value>
+                <value>
+                    <fullName>Internet Domain Registrar / Web Hosting Services</fullName>
+                    <default>false</default>
+                    <label>Internet Domain Registrar / Web Hosting Services</label>
+                </value>
+                <value>
+                    <fullName>Property and Casualty Insurance</fullName>
+                    <default>false</default>
+                    <label>Property and Casualty Insurance</label>
+                </value>
+                <value>
+                    <fullName>Investment and Insurance Services</fullName>
+                    <default>false</default>
+                    <label>Investment and Insurance Services</label>
+                </value>
+                <value>
+                    <fullName>Investment Management</fullName>
+                    <default>false</default>
+                    <label>Investment Management</label>
+                </value>
+                <value>
+                    <fullName>Marketing Services</fullName>
+                    <default>false</default>
+                    <label>Marketing Services</label>
+                </value>
+                <value>
+                    <fullName>Legal Services</fullName>
+                    <default>false</default>
+                    <label>Legal Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vendor_Email_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Email Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone_Number__c</fullName>
+        <description>Vendor&apos;s Phone Number</description>
+        <externalId>false</externalId>
+        <label>Vendor Phone Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <label>Vendor</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Vendor_Category__c</columns>
+        <columns>Vendor_Email_Address__c</columns>
+        <columns>Vendor_Phone_Number__c</columns>
+        <columns>Vendor_Address__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Vendor Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Vendors</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

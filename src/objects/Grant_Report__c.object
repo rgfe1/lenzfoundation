@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Grant_Report_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Grant_Report_Compact_Layout</fullName>
+        <fields>Grant_Report_Date__c</fields>
+        <fields>Name</fields>
+        <fields>Amount__c</fields>
+        <fields>Grant_Funds_Have_Been_Fully_Utilized__c</fields>
+        <fields>Total_Number_Of_People_Impacted__c</fields>
+        <label>Grant Report Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Address</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Amount__c</fullName>
+        <description>Amount by line items</description>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Info_Has_Changed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Has there been a change in contacts, address, etc?</description>
+        <externalId>false</externalId>
+        <label>Contact Info Has Changed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Dr_Lenz_Material_Utilization__c</fullName>
+        <description>To what extent has the organization utilized the writings, tapes and/or music of Dr. Frederick Lenz (Rama)?</description>
+        <externalId>false</externalId>
+        <label>Dr.Lenz Material Utilization</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grant_Funds_Have_Been_Fully_Utilized__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If the grant funds have not been fully utilized, please provide an estimated timetable to completion</description>
+        <externalId>false</externalId>
+        <label>Grant Funds Have Been Fully Utilized</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Report_Date__c</fullName>
+        <description>Date of the report</description>
+        <externalId>false</externalId>
+        <label>Grant Report Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grant_To_Report__c</fullName>
+        <externalId>false</externalId>
+        <label>Grant To Report</label>
+        <referenceTo>Grant__c</referenceTo>
+        <relationshipLabel>Grant Reports</relationshipLabel>
+        <relationshipName>Grant_Reports</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Has_The_Grant_Met_Its_Goals__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Has the grant met its goals and the need served?</description>
+        <externalId>false</externalId>
+        <label>Has The Grant Met Its Goals</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Implementation_Difficulties__c</fullName>
+        <description>Have you encountered any difficulties implementing the grant program?</description>
+        <externalId>false</externalId>
+        <label>Implementation Difficulties</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>News_Covered__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Has there been any relevant news coverage or reviews</description>
+        <externalId>false</externalId>
+        <label>News Covered</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Organization_Changes__c</fullName>
+        <description>Have there been any material changes in your organization that would affect your ability to perform?</description>
+        <externalId>false</externalId>
+        <label>Organization Changes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other_Relevant_Information__c</fullName>
+        <description>Any other information relevant information including a general overview if desired</description>
+        <externalId>false</externalId>
+        <label>Other Relevant Information</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Plan_Of_Action_Confirmation__c</fullName>
+        <description>A high level confirmation of how the plan of action was implemented</description>
+        <externalId>false</externalId>
+        <label>Plan Of Action Confirmation</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reputation_Of_The_Organization__c</fullName>
+        <description>Is there any information concerning the organization’s reputation in the community in which it serves</description>
+        <externalId>false</externalId>
+        <label>Reputation Of The Organization</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Total_Number_Of_People_Impacted__c</fullName>
+        <description>Total number of people the grant has impacted</description>
+        <externalId>false</externalId>
+        <label>Total Number Of People Impacted</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Grant Report</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>GR-{00000}</displayFormat>
+        <label>Grant Report Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Grant Reports</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
