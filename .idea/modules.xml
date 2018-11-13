@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lenzfoundation_dev.iml" filepath="$PROJECT_DIR$/lenzfoundation_dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lenzfoundation.iml" filepath="$PROJECT_DIR$/lenzfoundation.iml" />
     </modules>
   </component>
 </project>

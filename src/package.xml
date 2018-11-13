@@ -34,10 +34,6 @@
         <members>Grant_Request__c</members>
         <members>Grant__c</members>
         <members>Vendor__c</members>
-        <members>standard-Account</members>
-        <members>standard-AppLauncher</members>
-        <members>standard-Campaign</members>
-        <members>standard-Contact</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -72,5 +68,5 @@
         <members>*</members>
         <name>WorkflowRule</name>
     </types>
-    <version>44.0</version>
+    <version>43.0</version>
 </Package>

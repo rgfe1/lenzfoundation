@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9850908-fcd7-4bca-be4c-8336056e5293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IlluminatedCloud/lenzfoundation_dev/OfflineSymbolTable.zip" beforeDir="false" afterPath="$PROJECT_DIR$/IlluminatedCloud/lenzfoundation_dev/OfflineSymbolTable.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lenzfoundation_dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lenzfoundation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/Lenz_Foundation.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/Lenz_Foundation.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flexipages/Opportunity_Record_Page.flexipage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flexipages/Organization_Record_Page.flexipage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Asset-Asset Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/AssetRelationship-Asset Relationship Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Case-Case %28Marketing%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Case-Case %28Sales%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Case-Case %28Support%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Case-Case Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/CaseClose-Close Case Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/DandBCompany-D%26B Company Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Global-Global Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Goal-Goal Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/GoalLink-Goal Link Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Idea-Idea Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/JobTracker-Job Tracker Layout - Summer %2715.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/JobTracker-Job Tracker Layout - Winter %2716.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/JobTracker-Job Tracker Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Lead-Lead %28Marketing%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Lead-Lead %28Sales%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Lead-Lead %28Support%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Lead-Lead Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Macro-Macro Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Metric-Completion Metric Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Metric-Metric Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MetricDataLink-Metric Data Link Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Opportunity-Opportunity %28Sales%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Opportunity-Opportunity %28Support%29 Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Opportunity-Opportunity Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/OpportunityLineItem-Opportunity Product Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Order-Order Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/OrderItem-Order Product Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Pricebook2-Price Book Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PricebookEntry-Price Book Entry Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Product2-Product Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/QuickText-Quick Text Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Scorecard-Scorecard Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/ScorecardAssociation-Scorecard Association Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/ScorecardMetric-Scorecard Metric Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/SocialPersona-Social Persona Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/SocialPost-Social Post Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Solution-Solution Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Task-Task Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/User-User Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/UserProvAccount-User Provisioning Account Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/UserProvisioningLog-User Provisioning Log Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/UserProvisioningRequest-User Provisioning Request Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkCoaching-Coaching Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedback-Feedback Layout - Summer %2715.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedback-Feedback Layout - Winter %2716.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedback-Feedback Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackQuestion-Feedback Question Layout - Summer %2715.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackQuestion-Feedback Question Layout - Winter %2716.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackQuestion-Feedback Question Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackQuestionSet-Feedback Question Set Layout - Summer %2715.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackQuestionSet-Feedback Question Set Layout - Winter %2716.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackQuestionSet-Feedback Question Set Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackRequest-Feedback Request Layout - Summer %2715.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackRequest-Feedback Request Layout - Winter %2716.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackRequest-Feedback Request Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkFeedbackTemplate-Feedback Template Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkPerformanceCycle-Performance Cycle Layout - Summer %2715.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkPerformanceCycle-Performance Cycle Layout - Winter %2716.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/WorkPerformanceCycle-Performance Cycle Layout.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Account.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Account.object" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Contact.object" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Contact.object" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Metric.object" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/standardValueSets/FiscalYearPeriodName.standardValueSet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/standardValueSets/IdeaMultiCategory.standardValueSet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/standardValueSets/IdeaStatus.standardValueSet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/standardValueSets/OpportunityCompetitor.standardValueSet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/standardValueSets/OrderType.standardValueSet" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-525648480">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="app" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="layout" value="1" />
+          <entry key="object" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="quickAction" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="SObject Type" value="2" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="layout" value="1" />
+          <entry key="properties" value="39" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Properties" value="39" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/package.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/Account.object">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/Contact.object">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/dev/build.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/prod/build.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/prod/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/quickActions/NewAccount.quickAction">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layouts/Account-Account %28Marketing%29 Layout.layout">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applications/Lenz_Foundation.app">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>static</find>
+      <find>ver</find>
+      <find>metric</find>
+      <find>CleanStatus</find>
+      <find>Tradestyle</find>
+      <find>YearStarted</find>
+      <find>WorkCoaching-Coaching</find>
+      <find>Organization_Record_Page</find>
+      <find>standard-Account</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/layouts/Account-Account %28Marketing%29 Layout.layout" />
+        <option value="$PROJECT_DIR$/build/dev/build.properties" />
+        <option value="$PROJECT_DIR$/build/prod/build.properties" />
+        <option value="$PROJECT_DIR$/src/objects/Contact.object" />
+        <option value="$PROJECT_DIR$/src/applications/Lenz_Foundation.app" />
+        <option value="$PROJECT_DIR$/src/objects/Account.object" />
+        <option value="$PROJECT_DIR$/src/package.xml" />
+        <option value="$PROJECT_DIR$/build/prod/build.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="moduleWorkspaceSettings">
+      <map>
+        <entry key="lenzfoundation">
+          <value>
+            <ModuleWorkspaceSettings>
+              <option name="moduleContentsLastModified" value="1542083291904" />
+            </ModuleWorkspaceSettings>
+          </value>
+        </entry>
+        <entry key="lenzfoundation_dev">
+          <value>
+            <ModuleWorkspaceSettings>
+              <option name="moduleContentsLastModified" value="1542079089362" />
+            </ModuleWorkspaceSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="connectionWorkspaceSettings">
+          <map>
+            <entry key="lenzfoundation_dev">
+              <value>
+                <ConnectionWorkspaceSettings>
+                  <option name="buildSuccessDatesBySourceRootRelativePath">
+                    <map>
+                      <entry key="APPLICATIONS/LENZ_FOUNDATION.APP" value="1542083870000" />
+                      <entry key="LAYOUTS/ACCOUNT-ACCOUNT %28MARKETING%29 LAYOUT.LAYOUT" value="1542080780000" />
+                      <entry key="OBJECTS/ACCOUNT.OBJECT" value="1542083959000" />
+                      <entry key="OBJECTS/CONTACT.OBJECT" value="1542083091000" />
+                    </map>
+                  </option>
+                  <option name="lastBuildScope" value="CONTEXT" />
+                  <option name="lastBuildViewToggles">
+                    <map>
+                      <entry key="RETRIEVE">
+                        <value>
+                          <BuildViewToggles>
+                            <option name="showLocalAndServer" value="true" />
+                            <option name="showLocalOnly" value="false" />
+                            <option name="showServerOnly" value="true" />
+                            <option name="showSubscribedOnly" value="false" />
+                          </BuildViewToggles>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                </ConnectionWorkspaceSettings>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="metadataContents">
+          <map>
+            <entry key="lenzfoundation_dev">
+              <value>
+                <MetadataContents>
+                  <option name="lastPopulated" value="1542079089362" />
+                  <option name="metadataTypes">
+                    <set>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Custom%3A Support Profile" />
+                            <option value="Customer Community Plus Login User" />
+                            <option value="Analytics Cloud Integration User" />
+                            <option value="High Volume Customer Portal User" />
+                            <option value="Business Admin" />
+                            <option value="Cross Org Data Proxy User" />
+                            <option value="Force%2Ecom - Free User" />
+                            <option value="PlatformPortal" />
+                            <option value="External Identity User" />
+                            <option value="Force%2Ecom - App Subscription User" />
+                            <option value="Standard" />
+                            <option value="Chatter External User" />
+                            <option value="Identity User" />
+                            <option value="Custom%3A Sales Profile" />
+                            <option value="Partner Community Login User" />
+                            <option value="ContractManager" />
+                            <option value="Customer Community Plus User" />
+                            <option value="Partner Community User" />
+                            <option value="StandardAul" />
+                            <option value="Chatter Moderator User" />
+                            <option value="Gold Partner User" />
+                            <option value="SolutionManager" />
+                            <option value="ReadOnly" />
+                            <option value="Chatter Free User" />
+                            <option value="HighVolumePortal" />
+                            <option value="MarketingProfile" />
+                            <option value="Customer Portal Manager Standard" />
+                            <option value="Customer Community Login User" />
+                            <option value="Analytics Cloud Security User" />
+                            <option value="Admin" />
+                            <option value="Work%2Ecom Only User" />
+                            <option value="Silver Partner User" />
+                            <option value="Partner App Subscription User" />
+                            <option value="Authenticated Website" />
+                            <option value="Customer Community User" />
+                            <option value="Custom%3A Marketing Profile" />
+                            <option value="Customer Portal Manager Custom" />
+                          </set>
+                        </option>
+                        <option name="name" value="Profile" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ApexDevNet" />
+                          </set>
+                        </option>
+                        <option name="name" value="RemoteSiteSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead.Standard_Lead_Duplicate_Rule" />
+                            <option value="Account.Standard_Account_Duplicate_Rule" />
+                            <option value="Contact.Standard_Contact_Duplicate_Rule" />
+                          </set>
+                        </option>
+                        <option name="name" value="DuplicateRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Company" />
+                            <option value="Address" />
+                            <option value="Macro" />
+                            <option value="Product" />
+                            <option value="Security" />
+                            <option value="Knowledge" />
+                            <option value="IoT" />
+                            <option value="Name" />
+                            <option value="Case" />
+                            <option value="Ideas" />
+                            <option value="FieldService" />
+                            <option value="OmniChannel" />
+                            <option value="Opportunity" />
+                            <option value="Search" />
+                            <option value="FileUploadAndDownloadSecurity" />
+                            <option value="Order" />
+                            <option value="Activities" />
+                            <option value="OrgPreference" />
+                            <option value="BusinessHours" />
+                            <option value="Forecasting" />
+                            <option value="Mobile" />
+                            <option value="LiveAgent" />
+                            <option value="Quote" />
+                            <option value="Entitlement" />
+                            <option value="Contract" />
+                            <option value="PathAssistant" />
+                          </set>
+                        </option>
+                        <option name="name" value="Settings" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DataCloudGeoLocation" />
+                          </set>
+                        </option>
+                        <option name="name" value="CleanDataService" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Grant_Category" />
+                          </set>
+                        </option>
+                        <option name="name" value="GlobalValueSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SiteSamples" />
+                          </set>
+                        </option>
+                        <option name="name" value="StaticResource" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Grant_Installment__c-en_US" />
+                            <option value="Grant_Report__c-en_US" />
+                            <option value="Vendor__c-en_US" />
+                            <option value="Donation__c-en_US" />
+                            <option value="Grant_Request__c-en_US" />
+                            <option value="Grant_Line_Item__c-en_US" />
+                            <option value="Grant__c-en_US" />
+                            <option value="Account-en_US" />
+                            <option value="Grant_Organization__c-en_US" />
+                            <option value="Campaign-en_US" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObjectTranslation" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CustomLabels" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomLabels" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ChangePassword" />
+                            <option value="SiteTemplate" />
+                            <option value="InMaintenance" />
+                            <option value="StdExceptionTemplate" />
+                            <option value="FileNotFound" />
+                            <option value="SiteRegister" />
+                            <option value="AnswersHome" />
+                            <option value="ForgotPassword" />
+                            <option value="Exception" />
+                            <option value="IdeasHome" />
+                            <option value="BandwidthExceeded" />
+                            <option value="ForgotPasswordConfirm" />
+                            <option value="MyProfilePage" />
+                            <option value="SiteLogin" />
+                            <option value="Unauthorized" />
+                            <option value="SiteRegisterConfirm" />
+                            <option value="UnderConstruction" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account-Account %28Sales%29 Layout" />
+                            <option value="Grant__c-Grant Layout" />
+                            <option value="Contact-Contact %28Support%29 Layout" />
+                            <option value="Product2-Product Layout" />
+                            <option value="Lead-Lead Layout" />
+                            <option value="Grant_Organization__c-Grant Organization Layout" />
+                            <option value="Case-Case %28Sales%29 Layout" />
+                            <option value="Lead-Lead %28Support%29 Layout" />
+                            <option value="DandBCompany-D%26B Company Layout" />
+                            <option value="AssetRelationship-Asset Relationship Layout" />
+                            <option value="Case-Case %28Support%29 Layout" />
+                            <option value="Macro-Macro Layout" />
+                            <option value="Order-Order Layout" />
+                            <option value="Solution-Solution Layout" />
+                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
+                            <option value="ScorecardMetric-Scorecard Metric Layout" />
+                            <option value="Event-Event Layout" />
+                            <option value="Pricebook2-Price Book Layout" />
+                            <option value="UserProvisioningLog-User Provisioning Log Layout" />
+                            <option value="UserProvAccount-User Provisioning Account Layout" />
+                            <option value="Contact-Contact %28Marketing%29 Layout" />
+                            <option value="Grant_Report__c-Grant Report Layout" />
+                            <option value="Task-Task Layout" />
+                            <option value="Opportunity-Opportunity Layout" />
+                            <option value="Asset-Asset Layout" />
+                            <option value="OrderItem-Order Product Layout" />
+                            <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
+                            <option value="OpportunityLineItem-Opportunity Product Layout" />
+                            <option value="Case-Case Layout" />
+                            <option value="Contract-Contract Layout" />
+                            <option value="Campaign-Campaign Layout" />
+                            <option value="CommunityMemberLayout-Community Member Layout" />
+                            <option value="ScorecardAssociation-Scorecard Association Layout" />
+                            <option value="Account-Donor Layout" />
+                            <option value="Opportunity-Opportunity %28Sales%29 Layout" />
+                            <option value="SocialPersona-Social Persona Layout" />
+                            <option value="Grant_Request__c-Grant Request Layout" />
+                            <option value="Scorecard-Scorecard Layout" />
+                            <option value="Case-Case %28Marketing%29 Layout" />
+                            <option value="PricebookEntry-Price Book Entry Layout" />
+                            <option value="CaseClose-Close Case Layout" />
+                            <option value="Grant_Line_Item__c-Grant Line Item Layout" />
+                            <option value="FeedItem-Feed Item Layout" />
+                            <option value="Idea-Idea Layout" />
+                            <option value="ContentVersion-Content Version Layout" />
+                            <option value="Opportunity-Opportunity %28Support%29 Layout" />
+                            <option value="Global-Global Layout" />
+                            <option value="Account-Account %28Marketing%29 Layout" />
+                            <option value="Lead-Lead %28Sales%29 Layout" />
+                            <option value="EmailMessage-Email Message Layout" />
+                            <option value="SocialPost-Social Post Layout" />
+                            <option value="Account-Account %28Support%29 Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
+                            <option value="QuickText-Quick Text Layout" />
+                            <option value="Vendor__c-Vendor Layout" />
+                            <option value="Contact-Contact %28Sales%29 Layout" />
+                            <option value="User-User Layout" />
+                            <option value="Lead-Lead %28Marketing%29 Layout" />
+                            <option value="Account-Grantee Layout" />
+                            <option value="Grant_Installment__c-Grant Installment Layout" />
+                            <option value="Contact-Donor Layout" />
+                            <option value="AccountContactRelation-Account Contact Relationship Layout" />
+                            <option value="Contact-Grantee Layout" />
+                            <option value="Donation__c-Donation Layout" />
+                            <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
+                          </set>
+                        </option>
+                        <option name="name" value="Layout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SiteFooter" />
+                            <option value="SitePoweredBy" />
+                            <option value="SiteLogin" />
+                            <option value="SiteHeader" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexComponent" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="CollaborationGroup" />
+                            <option value="Task" />
+                            <option value="ForecastingCategoryMapping" />
+                            <option value="OpportunityLineItem" />
+                            <option value="CaseContactRole" />
+                            <option value="Activity" />
+                            <option value="Document" />
+                            <option value="ContactCleanInfo" />
+                            <option value="ScorecardMetric" />
+                            <option value="PushTopic" />
+                            <option value="FeedItem" />
+                            <option value="ContractContactRole" />
+                            <option value="ExchangeUserMapping" />
+                            <option value="SocialPersona" />
+                            <option value="Asset" />
+                            <option value="CampaignMember" />
+                            <option value="Order" />
+                            <option value="CollaborationGroupMember" />
+                            <option value="AccountContactRole" />
+                            <option value="StreamingChannel" />
+                            <option value="EmailMessage" />
+                            <option value="Pricebook2" />
+                            <option value="AccountCleanInfo" />
+                            <option value="UserProvisioningRequest" />
+                            <option value="Vendor__c" />
+                            <option value="PricebookEntry" />
+                            <option value="OrgDeleteRequest" />
+                            <option value="Donation__c" />
+                            <option value="Grant_Request__c" />
+                            <option value="Campaign" />
+                            <option value="LeadCleanInfo" />
+                            <option value="Idea" />
+                            <option value="ScorecardAssociation" />
+                            <option value="ChatterActivity" />
+                            <option value="Contract" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="PartnerRole" />
+                            <option value="MacroAction" />
+                            <option value="Site" />
+                            <option value="Grant__c" />
+                            <option value="User" />
+                            <option value="Product2" />
+                            <option value="Macro" />
+                            <option value="MacroInstruction" />
+                            <option value="DuplicateRecordItem" />
+                            <option value="CaseComment" />
+                            <option value="Case" />
+                            <option value="ContentVersion" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="DuplicateRecordSet" />
+                            <option value="Scorecard" />
+                            <option value="Topic" />
+                            <option value="Solution" />
+                            <option value="QuickText" />
+                            <option value="StreamActivityAccess" />
+                            <option value="AssetRelationship" />
+                            <option value="Grant_Line_Item__c" />
+                            <option value="DandBCompany" />
+                            <option value="OpportunityContactRole" />
+                            <option value="Contact" />
+                            <option value="Grant_Report__c" />
+                            <option value="RequestsForAccessSIQ" />
+                            <option value="Grant_Organization__c" />
+                            <option value="Grant_Installment__c" />
+                            <option value="OrderItem" />
+                            <option value="AssistantProgress" />
+                            <option value="Event" />
+                            <option value="AccountContactRelation" />
+                            <option value="RecordAction" />
+                            <option value="TopicAssignment" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObject" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="MyProfilePageControllerTest" />
+                            <option value="SiteRegisterController" />
+                            <option value="ForgotPasswordController" />
+                            <option value="MyProfilePageController" />
+                            <option value="ChangePasswordController" />
+                            <option value="SiteLoginControllerTest" />
+                            <option value="ChangePasswordControllerTest" />
+                            <option value="ForgotPasswordControllerTest" />
+                            <option value="SiteLoginController" />
+                            <option value="SiteRegisterControllerTest" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexClass" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Grant_Report__c.Amount__c" />
+                            <option value="Grant_Report__c.Contact_Info_Has_Changed__c" />
+                            <option value="Case.SLAViolation__c" />
+                            <option value="Lead.Primary__c" />
+                            <option value="Grant_Report__c.Dr_Lenz_Material_Utilization__c" />
+                            <option value="Grant_Report__c.Email__c" />
+                            <option value="Lead.CurrentGenerators__c" />
+                            <option value="Grant_Organization__c.Organization__c" />
+                            <option value="Grant_Line_Item__c.Amount__c" />
+                            <option value="Account.NumberofLocations__c" />
+                            <option value="Grant_Organization__c.Grant__c" />
+                            <option value="Opportunity.MainCompetitors__c" />
+                            <option value="Account.SLASerialNumber__c" />
+                            <option value="Account.UpsellOpportunity__c" />
+                            <option value="Grant_Installment__c.Amount__c" />
+                            <option value="Account.Religious_Affiliation__c" />
+                            <option value="Account.CustomerPriority__c" />
+                            <option value="Grant__c.Grant_Request__c" />
+                            <option value="Grant_Request__c.Qualified_Tax_Exempt_NGO_501_c_3_IRS__c" />
+                            <option value="Grant_Line_Item__c.Category__c" />
+                            <option value="Vendor__c.Vendor_Phone_Number__c" />
+                            <option value="Grant_Report__c.Grant_Funds_Have_Been_Fully_Utilized__c" />
+                            <option value="Donation__c.Contact__c" />
+                            <option value="Grant_Report__c.Reputation_Of_The_Organization__c" />
+                            <option value="Donation__c.Donation_Date__c" />
+                            <option value="Opportunity.OrderNumber__c" />
+                            <option value="Metric.OrigMetricId__c" />
+                            <option value="Case.EngineeringReqNumber__c" />
+                            <option value="Grant__c.Grant_Category__c" />
+                            <option value="Grant_Report__c.Implementation_Difficulties__c" />
+                            <option value="Grant_Report__c.Total_Number_Of_People_Impacted__c" />
+                            <option value="Grant_Report__c.Phone__c" />
+                            <option value="Grant_Request__c.How_Did_You_Hear_About_Us__c" />
+                            <option value="Account.Is_501C3_Org__c" />
+                            <option value="Account.SLAExpirationDate__c" />
+                            <option value="Grant__c.Grant_Type__c" />
+                            <option value="Grant_Request__c.Grant_Status__c" />
+                            <option value="Vendor__c.Vendor_Address__c" />
+                            <option value="Grant__c.Amount__c" />
+                            <option value="Donation__c.Donation_Bucket__c" />
+                            <option value="CampaignMember.Role__c" />
+                            <option value="Vendor__c.Vendor_Category__c" />
+                            <option value="Case.PotentialLiability__c" />
+                            <option value="Account.Religious_Affiliation_Subtype__c" />
+                            <option value="Grant__c.Grant_Date__c" />
+                            <option value="Grant_Request__c.Website_URL__c" />
+                            <option value="Grant_Request__c.Main_Contact__c" />
+                            <option value="Grant_Installment__c.Funding_Date__c" />
+                            <option value="Opportunity.TrackingNumber__c" />
+                            <option value="Grant_Report__c.Plan_Of_Action_Confirmation__c" />
+                            <option value="Grant_Request__c.Number_of_People_Impacted_by_The_Grant__c" />
+                            <option value="Grant_Report__c.Other_Relevant_Information__c" />
+                            <option value="Grant_Request__c.Grant_Category__c" />
+                            <option value="Account.Active__c" />
+                            <option value="CaseComment.ParentOrigin" />
+                            <option value="Opportunity.DeliveryInstallationStatus__c" />
+                            <option value="Grant__c.Grant_Status__c" />
+                            <option value="Vendor__c.Vendor_Email_Address__c" />
+                            <option value="Grant_Report__c.Grant_Report_Date__c" />
+                            <option value="Grant_Installment__c.Notes__c" />
+                            <option value="Grant_Request__c.State__c" />
+                            <option value="Contact.Level__c" />
+                            <option value="Goal.OrigGoalId__c" />
+                            <option value="Grant_Request__c.City__c" />
+                            <option value="Grant_Request__c.Amount__c" />
+                            <option value="Grant_Report__c.Grant_To_Report__c" />
+                            <option value="Donation__c.Amount__c" />
+                            <option value="Account.SLA__c" />
+                            <option value="Lead.SICCode__c" />
+                            <option value="Grant_Report__c.Address__c" />
+                            <option value="Contact.Languages__c" />
+                            <option value="Grant_Request__c.Organization_Name__c" />
+                            <option value="Grant_Request__c.Organization_Description__c" />
+                            <option value="Grant_Request__c.Street_Address__c" />
+                            <option value="CaseComment.CommentBody" />
+                            <option value="Grant_Request__c.Zip_Code__c" />
+                            <option value="Grant_Request__c.Approval_Condition__c" />
+                            <option value="Grant_Line_Item__c.Grant__c" />
+                            <option value="Grant_Report__c.Has_The_Grant_Met_Its_Goals__c" />
+                            <option value="Opportunity.CurrentGenerators__c" />
+                            <option value="Grant_Request__c.Phone_Number__c" />
+                            <option value="Grant_Request__c.Program_Description_For_The_Grant__c" />
+                            <option value="Grant_Report__c.News_Covered__c" />
+                            <option value="Grant_Installment__c.Grant__c" />
+                            <option value="Grant_Request__c.Email__c" />
+                            <option value="Lead.ProductInterest__c" />
+                            <option value="Lead.NumberofLocations__c" />
+                            <option value="Grant_Request__c.Grant_Request_Date__c" />
+                            <option value="Grant_Report__c.Organization_Changes__c" />
+                            <option value="Case.Product__c" />
+                            <option value="Account.Fiscal_Sponsor__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomField" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Donation__c.Donation_Compact_Layout" />
+                            <option value="AccountContactRelation.Account_Contact_Relationship_Compact_Layout" />
+                            <option value="Grant_Installment__c.Grant_Installment_Compact_Layout" />
+                            <option value="Account.Custom" />
+                            <option value="Vendor__c.Vendor_Compact_Layout" />
+                            <option value="Grant_Organization__c.Grant_Organization_Compact_Layout" />
+                            <option value="Grant_Line_Item__c.Grant_Line_Item_Compact_Layout" />
+                            <option value="Grant_Report__c.Grant_Report_Compact_Layout" />
+                            <option value="Grant__c.App_Grant_List_View" />
+                            <option value="Grant_Request__c.Custom_Layout" />
+                          </set>
+                        </option>
+                        <option name="name" value="CompactLayout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Metric.Progress" />
+                            <option value="Account.Fiscal_Sponsor" />
+                            <option value="Metric.Completion" />
+                            <option value="Contact.Grantee" />
+                            <option value="Account.Donor" />
+                            <option value="Contact.Donor" />
+                            <option value="Account.Grantee" />
+                          </set>
+                        </option>
+                        <option name="name" value="RecordType" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Opportunity.DeliveryStatus" />
+                            <option value="Campaign.ViewCampaignInfluenceReport" />
+                            <option value="Case.UpsellCrosssellOpportunity" />
+                            <option value="Account.Billing" />
+                          </set>
+                        </option>
+                        <option name="name" value="WebLink" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order.AllActivatedOrders" />
+                            <option value="Opportunity.NewThisWeek" />
+                            <option value="Case.AllOpenCases" />
+                            <option value="Case.MyCases" />
+                            <option value="Order.AllDraftOrders" />
+                            <option value="User.ActiveUsers" />
+                            <option value="Order.AllOrders" />
+                            <option value="Scorecard.MyScorecards" />
+                            <option value="Opportunity.ClosingNextMonth" />
+                            <option value="Contact.AllContacts" />
+                            <option value="Opportunity.Default_Opportunity_Pipeline" />
+                            <option value="Case.MyOpenCases" />
+                            <option value="Opportunity.Private" />
+                            <option value="Contract.AllContracts" />
+                            <option value="Contract.MyActivatedContracts" />
+                            <option value="Contract.AllDraftContracts" />
+                            <option value="WorkFeedbackRequest.AboutTopics" />
+                            <option value="Contact.NewLastWeek" />
+                            <option value="Task.DelegatedTasks" />
+                            <option value="SocialPersona.AllSocialPersonas" />
+                            <option value="User.AllUsers" />
+                            <option value="Task.UnscheduledTasks" />
+                            <option value="Contract.MyDraftContracts" />
+                            <option value="Lead.TodaysLeads" />
+                            <option value="Task.CompletedTasks" />
+                            <option value="Grant_Report__c.All" />
+                            <option value="Vendor__c.All" />
+                            <option value="Solution.AllUnreviewedSolutions" />
+                            <option value="Activity.UpcomingEvents" />
+                            <option value="Account.NewLastWeek" />
+                            <option value="Opportunity.AllOpportunities" />
+                            <option value="Task.OpenTasks" />
+                            <option value="Task.OverdueTasks" />
+                            <option value="Contact.BirthdaysThisMonth" />
+                            <option value="Opportunity.ClosingThisMonth" />
+                            <option value="Account.AllAccounts" />
+                            <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Contact.NewThisWeek" />
+                            <option value="Activity.AllActivities" />
+                            <option value="Grant__c.Grant_List_View" />
+                            <option value="Opportunity.NewLastWeek" />
+                            <option value="Asset.AllAssets" />
+                            <option value="User.AdminUsers" />
+                            <option value="Scorecard.AllScorecards" />
+                            <option value="Opportunity.MyOpportunities" />
+                            <option value="Campaign.MyActiveCampaigns" />
+                            <option value="Lead.MyUnreadLeads" />
+                            <option value="Account.Grantees" />
+                            <option value="Product2.AllProducts" />
+                            <option value="Campaign.AllActiveCampaigns" />
+                            <option value="Contact.MyContacts" />
+                            <option value="Activity.TodaysTasks" />
+                            <option value="Task.RecurringTasks" />
+                            <option value="Case.AllClosedCases" />
+                            <option value="Opportunity.Won" />
+                            <option value="Grant_Request__c.All" />
+                            <option value="Solution.AllReviewedSolutions" />
+                            <option value="Contract.MyInApprovalContracts" />
+                            <option value="Task.TodaysTasks" />
+                            <option value="Activity.MyActivities" />
+                            <option value="Grant__c.All" />
+                            <option value="Contract.AllInApprovalContracts" />
+                            <option value="WorkFeedbackTemplate.All" />
+                            <option value="Donation__c.All" />
+                            <option value="Lead.AllOpenLeads" />
+                            <option value="Account.NewThisWeek" />
+                            <option value="WorkFeedbackRequest.All" />
+                            <option value="Lead.ViewCustom1" />
+                            <option value="Idea.Ideas_Last_7_Days" />
+                            <option value="Account.Donors" />
+                            <option value="Contract.AllActivatedContracts" />
+                            <option value="Lead.ViewCustom2" />
+                          </set>
+                        </option>
+                        <option name="name" value="ListView" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="Account" />
+                            <option value="User" />
+                            <option value="Grant__c" />
+                            <option value="Vendor__c" />
+                            <option value="Case" />
+                            <option value="Contact" />
+                            <option value="Donation__c" />
+                            <option value="FlowInterview" />
+                            <option value="Grant_Request__c" />
+                            <option value="Campaign" />
+                            <option value="ListEmail" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="Asset" />
+                          </set>
+                        </option>
+                        <option name="name" value="SharingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DE Default" />
+                          </set>
+                        </option>
+                        <option name="name" value="HomePageLayout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Internal Zone" />
+                          </set>
+                        </option>
+                        <option name="name" value="Community" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SVPSalesMarketing" />
+                            <option value="MarketingTeam" />
+                            <option value="DirectorChannelSales" />
+                            <option value="SVPCustomerServiceSupport" />
+                            <option value="VPInternationalSales" />
+                            <option value="Executive_Director" />
+                            <option value="VPMarketing" />
+                            <option value="VPNorthAmericanSales" />
+                          </set>
+                        </option>
+                        <option name="name" value="Role" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="logo_0" />
+                          </set>
+                        </option>
+                        <option name="name" value="ContentAsset" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Lead" />
+                            <option value="Contact" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
+                            <option value="Account.Standard_Account_Match_Rule_v1_0" />
+                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case.Standard" />
+                            <option value="Lead.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard__Sales" />
+                            <option value="standard__LightningService" />
+                            <option value="standard__ServiceConsole" />
+                            <option value="Lenz_Foundation" />
+                            <option value="standard__Community" />
+                            <option value="standard__AppLauncher" />
+                            <option value="standard__LightningInstrumentation" />
+                            <option value="standard__Chatter" />
+                            <option value="standard__Platform" />
+                            <option value="standard__Service" />
+                            <option value="standard__LightningSales" />
+                            <option value="standard__Marketing" />
+                            <option value="standard__Content" />
+                            <option value="standard__Sites" />
+                            <option value="standard__LightningBolt" />
+                            <option value="standard__LightningSalesConsole" />
+                            <option value="standard__Insights" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomApplication" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="Grant_Line_Item__c" />
+                            <option value="Account" />
+                            <option value="Task" />
+                            <option value="Grant__c" />
+                            <option value="Vendor__c" />
+                            <option value="Case" />
+                            <option value="Contact" />
+                            <option value="Donation__c" />
+                            <option value="ContentDocument" />
+                            <option value="Grant_Report__c" />
+                            <option value="Grant_Request__c" />
+                            <option value="Campaign" />
+                            <option value="Grant_Organization__c" />
+                            <option value="Grant_Installment__c" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="Event" />
+                            <option value="Asset" />
+                            <option value="Contract" />
+                            <option value="Solution" />
+                          </set>
+                        </option>
+                        <option name="name" value="TopicsForObjects" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard-Idea" />
+                            <option value="standard-Macro" />
+                            <option value="standard-StreamingChannel" />
+                            <option value="Grant__c" />
+                            <option value="standard-Case" />
+                            <option value="standard-Solution" />
+                            <option value="standard-ContentSubscriptions" />
+                            <option value="standard-Dashboard" />
+                            <option value="standard-File" />
+                            <option value="standard-Document" />
+                            <option value="standard-Pricebook2" />
+                            <option value="standard-ListEmail" />
+                            <option value="standard-DuplicateRecordSet" />
+                            <option value="standard-Account" />
+                            <option value="standard-home" />
+                            <option value="standard-WaveHome" />
+                            <option value="standard-OtherUserProfile" />
+                            <option value="standard-UserProfile" />
+                            <option value="standard-Order" />
+                            <option value="standard-Workspace" />
+                            <option value="standard-Forecasting3" />
+                            <option value="standard-ProfilePlatformFeed" />
+                            <option value="standard-AppLauncher" />
+                            <option value="standard-CollaborationGroup" />
+                            <option value="standard-DandBCompany" />
+                            <option value="standard-Campaign" />
+                            <option value="standard-JigsawSearch" />
+                            <option value="standard-Sites" />
+                            <option value="standard-ContentSearch" />
+                            <option value="standard-Lead" />
+                            <option value="Vendor__c" />
+                            <option value="standard-ProfilePlatformOverview" />
+                            <option value="standard-report" />
+                            <option value="Donation__c" />
+                            <option value="Grant_Report__c" />
+                            <option value="Grant_Request__c" />
+                            <option value="standard-Contract" />
+                            <option value="standard-UserProvisioningRequest" />
+                            <option value="standard-Chatter" />
+                            <option value="standard-Contact" />
+                            <option value="standard-Opportunity" />
+                            <option value="standard-Product2" />
+                            <option value="standard-Asset" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomTab" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AutoResponseRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Donation_Record_Page1" />
+                            <option value="Lenz_Foundation_UtilityBar" />
+                            <option value="LightningSalesConsole_UtilityBar" />
+                            <option value="LightningService_UtilityBar" />
+                            <option value="Grant_Report_Record_Page" />
+                            <option value="Organization_Record_Page" />
+                            <option value="Grant_Request_Record_Page" />
+                            <option value="Grant_Request_Record_Page2" />
+                            <option value="Grant_Request_Record_Page3" />
+                            <option value="Foundation_Event_Record_Page1" />
+                            <option value="Grant_Request_Record_Page4" />
+                            <option value="Donation_Record_Page" />
+                            <option value="Grant_Record_Page" />
+                            <option value="Grant_Record_Page1" />
+                            <option value="Opportunity_Record_Page" />
+                            <option value="Foundation_Event_Record_Page" />
+                            <option value="Vendor_Record_Page" />
+                            <option value="Grant_Request_Record_Page1" />
+                            <option value="Contact_Record_Page" />
+                          </set>
+                        </option>
+                        <option name="name" value="FlexiPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="NewGroup" />
+                            <option value="Task.EditDescription" />
+                            <option value="FeedItem.NewTaskFromFeedItem" />
+                            <option value="NewNote" />
+                            <option value="Task.EditDescription_0" />
+                            <option value="CollaborationGroup.NewGroupMember" />
+                            <option value="CollaborationGroup.NewGroupRecord" />
+                            <option value="NewLead" />
+                            <option value="SendEmail" />
+                            <option value="Task.UpdateStatus" />
+                            <option value="NewOpportunity" />
+                            <option value="NewTask" />
+                            <option value="Task.Defer_0" />
+                            <option value="NewAccount" />
+                            <option value="Task.UpdateStatus_0" />
+                            <option value="Case.LogACall" />
+                            <option value="Case.NewChildCase" />
+                            <option value="Task.UpdatePriority" />
+                            <option value="Task.UpdatePriority_0" />
+                            <option value="NewContact" />
+                            <option value="Task.Defer" />
+                            <option value="NewCase" />
+                            <option value="LogACall" />
+                            <option value="NewEvent" />
+                          </set>
+                        </option>
+                        <option name="name" value="QuickAction" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Salesforce1" />
+                            <option value="AppSwitcher" />
+                          </set>
+                        </option>
+                        <option name="name" value="AppMenu" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="LF_Permission_Set" />
+                          </set>
+                        </option>
+                        <option name="name" value="PermissionSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="PT1_profileSessionSetting1541015872103" />
+                            <option value="Business_Admin_profileSessionSetting1541016320611" />
+                          </set>
+                        </option>
+                        <option name="name" value="ProfileSessionSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Business_Admin_profilePasswordPolicy1541016320555" />
+                            <option value="PT1_profilePasswordPolicy1541015872050" />
+                          </set>
+                        </option>
+                        <option name="name" value="ProfilePasswordPolicy" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="FiscalYearPeriodPrefix" />
+                            <option value="TaskPriority" />
+                            <option value="EventType" />
+                            <option value="CaseContactRole" />
+                            <option value="WorkOrderStatus" />
+                            <option value="Product2Family" />
+                            <option value="Industry" />
+                            <option value="CasePriority" />
+                            <option value="OrderType" />
+                            <option value="ContractContactRole" />
+                            <option value="TaskType" />
+                            <option value="IdeaStatus" />
+                            <option value="AccountRating" />
+                            <option value="SalesTeamRole" />
+                            <option value="CampaignType" />
+                            <option value="WorkOrderLineItemStatus" />
+                            <option value="AccountOwnership" />
+                            <option value="SolutionStatus" />
+                            <option value="AccountContactRole" />
+                            <option value="RoleInTerritory2" />
+                            <option value="CampaignMemberStatus" />
+                            <option value="ServiceContractApprovalStatus" />
+                            <option value="LeadSource" />
+                            <option value="CaseType" />
+                            <option value="CaseStatus" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="PartnerRole" />
+                            <option value="QuickTextChannel" />
+                            <option value="CampaignStatus" />
+                            <option value="QuoteStatus" />
+                            <option value="ContractStatus" />
+                            <option value="EventSubject" />
+                            <option value="AssetStatus" />
+                            <option value="FiscalYearQuarterName" />
+                            <option value="Salutation" />
+                            <option value="ContactRole" />
+                            <option value="FiscalYearQuarterPrefix" />
+                            <option value="LeadStatus" />
+                            <option value="IdeaMultiCategory" />
+                            <option value="SocialPostEngagementLevel" />
+                            <option value="AccountContactMultiRoles" />
+                            <option value="EntitlementType" />
+                            <option value="FiscalYearPeriodName" />
+                            <option value="TaskSubject" />
+                            <option value="TaskStatus" />
+                            <option value="AccountType" />
+                            <option value="OpportunityStage" />
+                            <option value="SocialPostClassification" />
+                            <option value="CaseReason" />
+                            <option value="IdeaThemeStatus" />
+                            <option value="WorkOrderPriority" />
+                            <option value="QuickTextCategory" />
+                            <option value="OpportunityType" />
+                            <option value="SocialPostReviewedStatus" />
+                            <option value="CaseOrigin" />
+                          </set>
+                        </option>
+                        <option name="name" value="StandardValueSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                          </set>
+                        </option>
+                        <option name="name" value="ReportFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
+                            <option value="unfiled$public/SupportSelfServiceResetPassword" />
+                            <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
+                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
+                            <option value="unfiled$public/SupportCaseAssignmentNotification" />
+                            <option value="unfiled$public/SupportCaseResponse" />
+                            <option value="unfiled$public/SalesNewCustomerEmail" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
+                            <option value="unfiled$public/SupportEscalatedCaseNotification" />
+                            <option value="unfiled$public/SupportCaseCreatedWebInquiries" />
+                            <option value="unfiled$public/SupportEscalatedCaseReassignment" />
+                            <option value="unfiled$public/MarketingProductInquiryResponse" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailTemplate" />
+                      </MetadataType>
+                    </set>
+                  </option>
+                </MetadataContents>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="retrieveAndMergeDefault" value="false" />
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="43" />
+    <option name="width" value="1243" />
+    <option name="height" value="684" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lenzfoundation_dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lenzfoundation_dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lenzfoundation_dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lenzfoundation_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542084334120" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build/prod" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build/prod" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="lenzfoundation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="lenzfoundation" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9850908-fcd7-4bca-be4c-8336056e5293" name="Default Changelist" comment="" />
+      <created>1542079062993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542079062993</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="43" width="1243" height="684" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26810992" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Illuminated Cloud" weight="0.3293919" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293919" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.3293919" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3293919" />
+      <window_info anchor="bottom" id="SOQL Query" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.316403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3293919" />
+      <window_info anchor="bottom" id="SOQL Query" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/quickActions/NewAccount.quickAction">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/Account-Account %28Marketing%29 Layout.layout">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenzfoundation.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10339" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/Contact.object">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applications/Lenz_Foundation.app">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/Account.object">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/prod/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/prod/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
