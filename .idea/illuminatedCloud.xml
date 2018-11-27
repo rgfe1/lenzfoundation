@@ -4,9 +4,9 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="lenzfoundation_dev" />
-          <option name="defaultModuleName" value="lenzfoundation_dev" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/lenzfoundation_dev/OfflineSymbolTable.zip" />
+          <option name="connectionName" value="marina_sandbox" />
+          <option name="defaultModuleName" value="lenzfoundation" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/marina_sandbox/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>

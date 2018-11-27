@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>SiteFormController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>LetterOfInterest</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
         <members>*</members>
         <name>CompactLayout</name>
     </types>
@@ -23,8 +31,8 @@
         <members>Grant_Line_Item__c</members>
         <members>Grant_Organization__c</members>
         <members>Grant_Report__c</members>
-        <members>Grant_Request__c</members>
         <members>Grant__c</members>
+        <members>Letter_Of_Interest__c</members>
         <members>Vendor__c</members>
         <name>CustomObject</name>
     </types>
@@ -61,6 +69,10 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>SiteFormCss</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
         <members>*</members>
         <name>Workflow</name>
     </types>
@@ -68,5 +80,5 @@
         <members>*</members>
         <name>WorkflowRule</name>
     </types>
-    <version>43.0</version>
+    <version>44.0</version>
 </Package>

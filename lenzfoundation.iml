@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="IlluminatedCloud" name="Illuminated Cloud">
       <configuration>
-        <option name="connectionName" value="lenzfoundation_dev" />
+        <option name="connectionName" value="marina_sandbox" />
         <option name="defaultSourceRootUrl" value="file://$MODULE_DIR$/src" />
         <option name="moduleContents">
           <ModuleContents>
@@ -52,6 +52,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SiteRegisterControllerTest" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SiteFormController" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -131,6 +135,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="UnderConstruction" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LetterOfInterest" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -939,6 +947,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Vendor__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Letter_Of_Interest__c" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -2111,6 +2123,7 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Admin" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Analytics Cloud Integration User" />
@@ -2378,6 +2391,10 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="ApexDevNet" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="reCaptcha" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -2816,7 +2833,7 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
-                            <option name="name" value="SiteSamples" />
+                            <option name="name" value="SiteFormCss" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -2970,7 +2987,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="IlluminatedCloud (lenzfoundation_dev/lenzfoundation_dev)" jdkType="IlluminatedCloud" />
+    <orderEntry type="jdk" jdkName="IlluminatedCloud (lenzfoundation_dev/marina_sandbox)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -110,7 +110,7 @@
         <description>Grant Request that originated this grant</description>
         <externalId>false</externalId>
         <label>Grant Request</label>
-        <referenceTo>Grant_Request__c</referenceTo>
+        <referenceTo>Letter_Of_Interest__c</referenceTo>
         <relationshipLabel>Grants</relationshipLabel>
         <relationshipName>Grants</relationshipName>
         <required>false</required>
@@ -227,6 +227,15 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reports_Not_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reports Not Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <label>Grant</label>
     <listViews>

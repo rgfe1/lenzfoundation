@@ -125,6 +125,18 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Grant_Number__c</fullName>
+        <description>It is needed for the reference</description>
+        <externalId>false</externalId>
+        <label>Grant Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Grant_Report_Date__c</fullName>
         <description>Date of the report</description>
         <externalId>false</externalId>
@@ -136,17 +148,16 @@
     </fields>
     <fields>
         <fullName>Grant_To_Report__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Grant To Report</label>
         <referenceTo>Grant__c</referenceTo>
         <relationshipLabel>Grant Reports</relationshipLabel>
         <relationshipName>Grant_Reports</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Has_The_Grant_Met_Its_Goals__c</fullName>
@@ -251,6 +262,13 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>To_Be_Processed</fullName>
+        <columns>NAME</columns>
+        <columns>Grant_To_Report__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>To Be Processed</label>
+    </listViews>
     <nameField>
         <displayFormat>GR-{00000}</displayFormat>
         <label>Grant Report Name</label>
@@ -259,6 +277,6 @@
     </nameField>
     <pluralLabel>Grant Reports</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
