@@ -39,11 +39,11 @@
     <types>
         <members>Donation__c</members>
         <members>Grant_Report__c</members>
-        <members>Grant_Request__c</members>
         <members>Grant__c</members>
+        <members>Letter_Of_Interest__c</members>
         <members>Vendor__c</members>
         <name>CustomTab</name>
-    </types>
+    </types>    
     <types>
         <members>*</members>
         <name>FlexiPage</name>

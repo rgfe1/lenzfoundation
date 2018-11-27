@@ -16,8 +16,15 @@
         <componentInstances>
             <componentName>force:detailPanel</componentName>
         </componentInstances>
+        <name>Facet-c3a8d9cc-0133-48ac-b390-c2a353c5e5f2</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>force:relatedListContainer</componentName>
+        </componentInstances>
         <mode>Replace</mode>
-        <name>detailTabContent</name>
+        <name>relatedTabContent</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -28,11 +35,22 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>detailTabContent</value>
+                <value>Facet-c3a8d9cc-0133-48ac-b390-c2a353c5e5f2</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
                 <value>Standard.Tab.detail</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:tab</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>body</name>
+                <value>relatedTabContent</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>title</name>
+                <value>Standard.Tab.relatedLists</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>
@@ -92,9 +110,9 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Grant Request Record Page</masterLabel>
+    <masterLabel>Letter Of Interest Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>Grant_Request__c</sobjectType>
+    <sobjectType>Letter_Of_Interest__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

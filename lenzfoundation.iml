@@ -836,10 +836,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Grant_Request__c" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Grant__c" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -1020,10 +1016,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Grant_Request__c" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Grant__c" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -1148,6 +1140,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-report" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Letter_Of_Interest__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1345,26 +1341,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Grant_Request_Record_Page" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Grant_Request_Record_Page1" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Grant_Request_Record_Page2" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Grant_Request_Record_Page3" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Grant_Request_Record_Page4" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Lenz_Foundation_UtilityBar" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -1386,6 +1362,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Vendor_Record_Page" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Letter_Of_Interest_Record_Page" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -1583,10 +1563,6 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Grant_Report__c-Grant Report Layout" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Grant_Request__c-Grant Request Layout" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1803,6 +1779,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="WorkPerformanceCycle-Performance Cycle Layout - Winter %2716" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Letter_Of_Interest__c-Grant Request Layout" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>

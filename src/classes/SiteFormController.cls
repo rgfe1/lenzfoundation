@@ -69,7 +69,7 @@ public with sharing class SiteFormController {
     if(this.verified) {
       saveLocal();
     } else {
-      addMessage(ApexPages.Severity.ERROR, 'Could not verify reCaptcha');
+      addMessage(ApexPages.Severity.ERROR, 'Please tell us you are not a robot');
     }
     return null;
   }

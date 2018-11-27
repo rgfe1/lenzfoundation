@@ -1,0 +1,63 @@
+<project xmlns:sf="antlib:com.salesforce" name="Salesforce Ant tasks" default="deployCodeCheckOnly">
+	<property file="build.properties"/>
+	<property environment="env"/>
+	<!--
+	 Setting default value for username and password to empty string 
+	    so unset values are treated as empty. Without this, ant expressions such as ${sf.username}
+	    will be treated literally.
+	-->
+	<condition property="sf.username" value="">
+		<not>
+			<isset property="sf.username"/>
+		</not>
+	</condition>
+	<condition property="sf.password" value="">
+		<not>
+			<isset property="sf.password"/>
+		</not>
+	</condition>
+	<taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
+		<classpath>
+			<pathelement location="../lib/ant-salesforce.jar"/>
+		</classpath>
+	</taskdef>
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+		<classpath>
+			<pathelement location="../lib/ant-contrib-1.0b3.jar"/>
+		</classpath>
+	</taskdef>
+
+	<!-- Deploy code (but only stages in Production as "validated" due to "checkonly" flag - requires subsequent "Deploy via UI") and run tests only within the org namespace -->
+
+	<target name="deployCodeCheckOnly">
+      <sf:deploy 
+      		username="${sf.username}" 
+      		password="${sf.password}" 
+      		serverurl="${sf.serverurl}" 
+      		deployRoot="../../src"
+	  />
+    </target>
+
+	<!-- Deploy code (actually deploys into Prod immediately) and run tests only within the org namespace -->
+	<target name="deployCodeRunTests">
+		<trycatch>
+			<try>
+	    		<echo message="Deploying to ${sf.username} instance" />
+	    		<sf:deploy 
+	    			username="${sf.username}" 
+	    			password="${sf.password}" 
+	    			serverurl="${sf.serverurl}" 
+	    			deployRoot="../../src" 
+	    			rollbackOnError="true" 
+	    			testlevel="RunLocalTests"/>
+	    	</try>
+			<finally>
+				<tstamp>
+					<format property="current.time" pattern="MM/dd/yyyy hh:mm:ss aa" />
+				</tstamp>
+				<echo message="Done at: ${current.time}" />
+			</finally>
+		</trycatch>
+	</target>
+</project>
+
