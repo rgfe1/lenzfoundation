@@ -44,10 +44,9 @@
     <compactLayoutAssignment>Grant_Report_Compact_Layout</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Grant_Report_Compact_Layout</fullName>
-        <fields>Grant_Report_Date__c</fields>
+        <fields>Submission_Date__c</fields>
         <fields>Name</fields>
         <fields>Amount__c</fields>
-        <fields>Grant_Funds_Have_Been_Fully_Utilized__c</fields>
         <fields>Total_Number_Of_People_Impacted__c</fields>
         <label>Grant Report Compact Layout</label>
     </compactLayouts>
@@ -60,6 +59,15 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Additional_Categories__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Categories</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
     <fields>
         <fullName>Address__c</fullName>
         <externalId>false</externalId>
@@ -105,6 +113,15 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
+        <fullName>Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Email__c</fullName>
         <externalId>false</externalId>
         <label>Email</label>
@@ -115,21 +132,10 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Grant_Funds_Have_Been_Fully_Utilized__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>If the grant funds have not been fully utilized, please provide an estimated timetable to completion</description>
+        <fullName>Full_Name__c</fullName>
         <externalId>false</externalId>
-        <label>Grant Funds Have Been Fully Utilized</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Grant_Number__c</fullName>
-        <description>It is needed for the reference</description>
-        <externalId>false</externalId>
-        <label>Grant Number</label>
-        <length>50</length>
+        <label>Contact Full Name</label>
+        <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -137,20 +143,19 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Grant_Report_Date__c</fullName>
-        <description>Date of the report</description>
+        <fullName>Grant_Funds_Were_Utilized__c</fullName>
+        <defaultValue>true</defaultValue>
         <externalId>false</externalId>
-        <label>Grant Report Date</label>
-        <required>false</required>
+        <label>Grant Funds Were Utilized</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Grant_To_Report__c</fullName>
+        <fullName>Grant__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Grant To Report</label>
+        <label>Grant</label>
         <referenceTo>Grant__c</referenceTo>
         <relationshipLabel>Grant Reports</relationshipLabel>
         <relationshipName>Grant_Reports</relationshipName>
@@ -161,13 +166,13 @@
     </fields>
     <fields>
         <fullName>Has_The_Grant_Met_Its_Goals__c</fullName>
-        <defaultValue>false</defaultValue>
         <description>Has the grant met its goals and the need served?</description>
         <externalId>false</externalId>
         <label>Has The Grant Met Its Goals</label>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Implementation_Difficulties__c</fullName>
@@ -181,14 +186,24 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
-        <fullName>News_Covered__c</fullName>
+        <fullName>Locked__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>Has there been any relevant news coverage or reviews</description>
+        <description>Salesforce locks the access to the Grant Report when Status = &quot;Approved&quot;</description>
         <externalId>false</externalId>
-        <label>News Covered</label>
+        <label>Locked</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>News_Coverage__c</fullName>
+        <description>Has there been any relevant news coverage or reviews</description>
+        <externalId>false</externalId>
+        <label>News Coverage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Organization_Changes__c</fullName>
@@ -222,26 +237,62 @@
         <type>Phone</type>
     </fields>
     <fields>
-        <fullName>Plan_Of_Action_Confirmation__c</fullName>
-        <description>A high level confirmation of how the plan of action was implemented</description>
+        <fullName>Status__c</fullName>
+        <description>Status when the Grant Report is reviewing</description>
         <externalId>false</externalId>
-        <label>Plan Of Action Confirmation</label>
-        <length>32768</length>
+        <label>Status</label>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Needs More Info</fullName>
+                    <default>false</default>
+                    <label>Needs More Info</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
-        <fullName>Reputation_Of_The_Organization__c</fullName>
-        <description>Is there any information concerning the organization’s reputation in the community in which it serves</description>
+        <fullName>Submission_Date__c</fullName>
+        <description>The date on which report was submitted by a grantee</description>
         <externalId>false</externalId>
-        <label>Reputation Of The Organization</label>
-        <length>32768</length>
+        <inlineHelpText>The date on which report was submitted by a grantee</inlineHelpText>
+        <label>Submission Date</label>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Total_Number_Of_People_Impacted__c</fullName>
@@ -265,7 +316,6 @@
     <listViews>
         <fullName>To_Be_Processed</fullName>
         <columns>NAME</columns>
-        <columns>Grant_To_Report__c</columns>
         <filterScope>Mine</filterScope>
         <label>To Be Processed</label>
     </listViews>

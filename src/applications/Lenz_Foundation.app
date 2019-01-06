@@ -13,6 +13,10 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Campaign</tabs>
+    <tabs>Grant__c</tabs>
+    <tabs>Grant_Report__c</tabs>
+    <tabs>Letter_Of_Interest__c</tabs>
+    <tabs>Donation__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Lenz_Foundation_UtilityBar</utilityBar>
 </CustomApplication>

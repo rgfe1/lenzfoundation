@@ -23,52 +23,89 @@ hr {
 }
 
 .slds-scope .slds-page-header__title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
+    color: #8f7802;
+}
+
+.slds-scope h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #8f7802;
+    margin-top: 1.5rem;
+}
+
+.slds-scope h3 {
+    font-size: 0.88rem;
+}
+
+.slds-scope h4 {
+    margin-bottom: 15px;
+    color: #888888;
+    font-size: 0.75rem;
+}
+
+.sectionContainer {
+    width: 100%;
+    border-top: 1px solid #8f7802;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.sectionHelpText {
+    margin-bottom: 25px;
+    width: 420px;
 }
 
 .slds-scope .instructions {
-        max-width:34%;
+    max-width:34%;
 }
 
 body label {
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: rgb(71, 19, 0);
-    margin-left: 0.8rem;
-    width: 155px;
     display: block;
+    width: 420px;
+    font-size: 0.75rem;
+    color: rgb(71, 19, 0);
+    text-transform: uppercase;
 }
 
-body label.longLabel {
-    display: block;
-    width: 40%;
+body label.checkBoxLabel {
+    display:inline;
+    margin-right: 4px;
 }
 
 .slds-scope input, .slds-scope select, .slds-scope textarea {
     margin-bottom:17px;
-    margin-left: 0.5rem;
-    border: 1px solid #c3ad7d !important;
+    margin-top:4px;
+    border: 1px solid #8f7802 !important;
     border-radius: 0 !important;
-    width: 300px !important;
+    width: 305px;
     display: block !important;
     height: 1.875rem;
     padding: 2px 7px;
 }
 
+.slds-scope input[type=checkbox], .slds-scope input[type=radio] {
+    display: inline !important;
+    height: 0.9rem;
+}
+
 .slds-scope textarea {
-    width:440px;
-    height: 115px;
+    width: 420px;
+    height: 75px;
 }
 
 .slds-scope button, .slds-scope input[type=button], .slds-scope input[type=reset], .slds-scope input[type=submit] {
     margin-top: 15px;
-    background-color: #c3ad7d;
-    color: black;
+    background-color: #715e00;
+    color: white;
     font-size: .9rem;
     max-width: 100px;
     line-height: 0;
+}
+
+.slds-scope input[type=submit]:hover {
+    background-color: #877000;
 }
 
 .submitForm {
@@ -88,4 +125,13 @@ body .dateInput input[type="text"] {
 
 #g-recaptcha-response {
     visibility: hidden;
+}
+
+.lineItemFloat {
+    float:left;
+}
+
+.slds-scope .lineItemFloat input {
+    margin-bottom: 2px;
+    margin-right:8px;
 }

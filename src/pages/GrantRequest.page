@@ -1,0 +1,41 @@
+<apex:page id="GrantRequest" standardController="Grant__c" extensions="SiteFormController"
+           lightningStylesheets="true" showHeader="false" docType="html-5.0">
+    <head>
+        <title>Grant Request</title>
+    </head>
+    <apex:slds />
+    <apex:stylesheet value="{!URLFOR($Resource.SiteFormCss)}"/>
+
+    <div class="logoImg">
+        <a href="https://www.fredericklenzfoundation.org/grants" title="">
+            <img src="https://www.fredericklenzfoundation.org/sites/default/files/logo_0.png" alt="" id="logo"/>
+        </a>
+    </div>
+    <div class="wrapper">
+        <div class="headerBar"/>
+        <apex:form styleClass="submitForm">
+            <h1><span class="slds-page-header__title slds-truncate" title="Letter of Interest">Submit a Grant Request</span></h1>
+            <hr/>
+            <section class="instructions">
+                TODO some text goes here
+            </section>
+            <div class="slds-grid">
+                <div class="slds-col">
+                    <label>Grant Date<abbr class="slds-required"> *</abbr></label>
+                    <apex:inputField id="grantDt" value="{!Grant__c.Grant_Date__c}" />
+                    
+
+
+                    <div class="fileContainer">
+                        <label class="longLabel">Add an Attachment</label>
+                        <apex:inputFile value="{!file}" fileName="{!fileName}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="g-recaptcha" data-sitekey="{!siteKey}"></div>
+            <script src='https://www.google.com/recaptcha/api.js'></script>
+            <apex:commandButton action="{!verifyAndSave}" value="Submit"/>
+        </apex:form>
+        <apex:pageMessages />
+    </div>
+</apex:page>

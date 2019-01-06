@@ -2,9 +2,15 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>SiteFormController</members>
+        <members>GrantReportFormController</members>
+        <members>LetterOfInterestFormController</members>
+        <members>GrantReportFormControllerTest</members>
+        <members>LetterOfInterestFormControllerTest</members>
+        <members>MockHttpResponseGenerator</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>GrantReport</members>
         <members>LetterOfInterest</members>
         <name>ApexPage</name>
     </types>
@@ -20,7 +26,6 @@
         <members>Account</members>
         <members>AccountContactRelation</members>
         <members>AccountContactRole</members>
-        <members>Activity</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>ChatterActivity</members>
@@ -31,6 +36,7 @@
         <members>Grant_Line_Item__c</members>
         <members>Grant_Organization__c</members>
         <members>Grant_Report__c</members>
+        <members>Grant_Report_Line_Item__c</members>
         <members>Grant__c</members>
         <members>Letter_Of_Interest__c</members>
         <members>Vendor__c</members>
@@ -43,7 +49,11 @@
         <members>Letter_Of_Interest__c</members>
         <members>Vendor__c</members>
         <name>CustomTab</name>
-    </types>    
+    </types>
+    <types>
+        <members>unfiled$public/Notify_Admin_of_Contact_Info_Change_on_Grant_Report</members>
+        <name>EmailTemplate</name>
+    </types>
     <types>
         <members>*</members>
         <name>FlexiPage</name>

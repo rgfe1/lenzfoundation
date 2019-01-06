@@ -41,18 +41,8 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>Grant_Line_Item_Compact_Layout</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Grant_Line_Item_Compact_Layout</fullName>
-        <fields>Name</fields>
-        <fields>Amount__c</fields>
-        <fields>Category__c</fields>
-        <fields>Grant__c</fields>
-        <fields>CreatedById</fields>
-        <label>Grant Line Item Compact Layout</label>
-    </compactLayouts>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Detailed usage of grant funds</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -62,23 +52,11 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Amount__c</fullName>
-        <description>Amount spent by line item</description>
-        <externalId>false</externalId>
-        <label>Amount</label>
-        <precision>12</precision>
-        <required>true</required>
-        <scale>2</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
         <fullName>Category__c</fullName>
-        <description>Classification of the Grant Line items</description>
         <externalId>false</externalId>
+        <formula>Grant_Line_Item_ID__r.Category__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Category</label>
-        <length>100</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -86,12 +64,24 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Grant__c</fullName>
+        <fullName>Grant_Amount_Spent__c</fullName>
+        <description>Grant amount spent in the referenced grant line Item</description>
         <externalId>false</externalId>
-        <label>Grant</label>
-        <referenceTo>Grant__c</referenceTo>
-        <relationshipLabel>Grant Line Items</relationshipLabel>
-        <relationshipName>Grant_Line_Items</relationshipName>
+        <label>Grant Amount Spent</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Line_Item_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Grant Line Item ID</label>
+        <referenceTo>Grant_Line_Item__c</referenceTo>
+        <relationshipLabel>Grant Report Line Items</relationshipLabel>
+        <relationshipName>Grant_Report_Line_Items</relationshipName>
         <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
         <trackHistory>false</trackHistory>
@@ -99,14 +89,27 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <label>Grant Line Item</label>
-    <nameField>
-        <displayFormat>LI#-{00000}</displayFormat>
-        <label>Grant Line Items Name</label>
+    <fields>
+        <fullName>Grant_Report_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Grant Report ID</label>
+        <referenceTo>Grant_Report__c</referenceTo>
+        <relationshipLabel>Grant Report Line Items</relationshipLabel>
+        <relationshipName>Grant_Report_Line_Items</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>Grant Report Line Item</label>
+    <nameField>
+        <label>Details Link</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Grant Line Items</pluralLabel>
+    <pluralLabel>Grant Report Line Items</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

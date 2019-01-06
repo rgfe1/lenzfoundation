@@ -1,0 +1,98 @@
+<apex:page id="GrantReport" standardController="Grant_Report__c" extensions="GrantReportFormController"
+           lightningStylesheets="true" showHeader="false" cache="false" docType="html-5.0">
+    <head>
+        <title>Grant Annual Report</title>
+    </head>
+    <apex:slds />
+    <apex:stylesheet value="{!URLFOR($Resource.SiteFormCss)}"/>
+
+    <div class="logoImg">
+        <a href="https://www.fredericklenzfoundation.org/grants" title="">
+            <img src="https://www.fredericklenzfoundation.org/sites/default/files/logo_0.png" alt="" id="logo"/>
+        </a>
+    </div>
+
+    <div class="wrapper">
+            <div class="headerBar"></div>
+            <apex:form styleClass="submitForm">
+                <h1><span class="slds-page-header__title slds-truncate" title="Grant Annual Report">Annual Grant Report</span></h1>
+                <apex:pageMessages />
+
+                <div style="display:{!IF(alreadySubmitted,"block", "none")};">
+                    Your report has been successfully submitted.
+                </div>
+                <div style="font-size:0.9rem; font-weight: normal;">
+                    Date of Submission:&nbsp;&nbsp;<apex:outputField value="{!Grant_Report__c.Submission_Date__c}" />
+                </div>
+
+                <div style="display:{!IF(alreadySubmitted,"none", "block")};">
+                    <h2>Tell Us How You Are Doing</h2>
+                    <div class="sectionContainer">
+                        <div class="sectionHelpText">Please provide detailed answers below</div>
+
+                        <label>Explain how the grant has met its goals and the need served<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Grant_Report__c.Has_The_Grant_Met_Its_Goals__c}" />
+
+                        <label>Total number of people the grant has impacted<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Grant_Report__c.Total_Number_Of_People_Impacted__c}" />
+
+                        <label>Have you encountered any difficulties implementing the grant program?<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Grant_Report__c.Implementation_Difficulties__c}" />
+
+                        <label>Has there been any e-news coverage or reviews mentioning the grantee relationship with the Lenz
+                            Foundation? If so, please copy and paste links below.</label>
+                        <apex:inputField value="{!Grant_Report__c.News_Coverage__c}" />
+
+                        <label>Has your organization had the opportunity to utilize the writings, tapes and/or music of Dr.
+                            Frederick Lenz?</label>
+                        <apex:inputField value="{!Grant_Report__c.Dr_Lenz_Material_Utilization__c}" />
+
+                        <label>Have there been any material changes in your organization that would affect your ability to perform?</label>
+                        <apex:inputField value="{!Grant_Report__c.Organization_Changes__c}" />
+
+                        <label>Any other relevant/helpful information about the implementation of the grant?</label>
+                        <apex:inputField value="{!Grant_Report__c.Other_Relevant_Information__c}" />
+
+                    </div>
+
+                    <h2>Amount Spent Per Line Item</h2>
+                    <div class="sectionContainer">
+                        <div class="sectionHelpText">Please report the actual grant funds spent in each category to date</div>
+                        <label class="checkBoxLabel">Were the grant funds fully utilized?</label>
+                        <apex:inputField value="{!Grant_Report__c.Grant_Funds_Were_Utilized__c}" />
+                        <div>
+                            <apex:repeat var="li" value="{!grantReporLineItems}">
+                                <div class="lineItemFloat">
+                                    <h3>{!li.grantLi.Category__c}<abbr class="slds-required" title=""> *</abbr></h3>
+                                    <apex:input value="{!li.amount}" />
+                                    <h4>Allocated budget: ${!li.grantLi.Amount__c}</h4>
+                                </div>
+                            </apex:repeat>
+                            <div style="clear:both"></div>
+                        </div>
+                        <label >List additional amounts per category</label>
+                        <apex:inputField value="{!Grant_Report__c.Additional_Categories__c}" />
+                    </div>
+
+                    <h2>New Contact Info</h2>
+                    <div class="sectionContainer">
+                        <div class="sectionHelpText">Only fill out if contact info changed</div>
+                        <label>Contact Full Name</label>
+                        <apex:inputField id="contactName" value="{!Grant_Report__c.Full_Name__c}" />
+                        <label>Contact Title</label>
+                        <apex:inputField id="contactTitle" value="{!Grant_Report__c.Title__c}" />
+                        <label>Address</label>
+                        <apex:inputField id="Address" value="{!Grant_Report__c.Address__c}" />
+                        <label>Phone Number</label>
+                        <apex:inputField value="{!Grant_Report__c.Phone__c}" />
+                        <label>Email</label>
+                        <apex:inputField value="{!Grant_Report__c.Email__c}" />
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="{!siteKey}"></div>
+                    <script src='https://www.google.com/recaptcha/api.js'></script>
+                    <apex:commandButton action="{!verifyAndSave}" value="Submit"/>
+                </div>
+            </apex:form>
+        <apex:pageMessages />
+    </div>
+</apex:page>

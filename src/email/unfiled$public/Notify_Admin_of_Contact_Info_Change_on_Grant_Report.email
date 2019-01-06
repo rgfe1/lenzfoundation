@@ -1,0 +1,9 @@
+Dear System Admin,
+
+Please note that contact information changed based on the following Grant Report:
+{!Grant_Report__c.Link}
+
+To keep contact information current, please update the contact information on the related Grant: {!Grant_Report__c.Grant__c}
+
+Regards,
+Your Friendly Salesforce

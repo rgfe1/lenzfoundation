@@ -1,5 +1,5 @@
-<apex:page id="LetterOfInterest" standardController="Letter_Of_Interest__c" extensions="SiteFormController"
-lightningStylesheets="true" showHeader="false" docType="html-5.0">
+<apex:page id="LetterOfInterest" standardController="Letter_Of_Interest__c" extensions="LetterOfInterestFormController"
+lightningStylesheets="true" showHeader="false" cache="false" docType="html-5.0">
     <head>
         <title>Letter Of Interest</title>
     </head>
@@ -16,55 +16,60 @@ lightningStylesheets="true" showHeader="false" docType="html-5.0">
         <apex:form styleClass="submitForm">
             <h1><span class="slds-page-header__title slds-truncate" title="Letter of Interest">Submit a Letter of Interest</span></h1>
             <hr/>
-            <section class="instructions">
-                Prior to submitting a Letter of Interest, please read our <a href="https://www.fredericklenzfoundation.org/grants" target="_blank">Grant Policy Page</a>.
-                The Lenz Foundation is unable to provide grants to organizations located outside of the United States and that do not meet the terms set out in the Grant Policy.
-                
-                Inquiries should be limited to two pages describing the organization and the purposes for which the requested funds would be used.
-                If the committee on grant-making desires further information, it will issue a request for a formal Grant Proposal to be submitted.
-                Thank you in advance for your understanding and interest.
-            </section>
-            <div class="slds-grid">
-                <div class="slds-col">
-                    <label>Organization Name<abbr class="slds-required" title="Your company name"> *</abbr></label>
-                    <apex:inputField id="orgName" value="{!Letter_Of_Interest__c.Organization_Name__c}" />
-                    <label class="longLabel">Organization Description<abbr class="slds-required" title="Your company name"> *</abbr></label>
-                    <apex:inputField id="orgDescr" value="{!Letter_Of_Interest__c.Organization_Description__c}" />
-                    <label>Street Address<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField id="strAddress" value="{!Letter_Of_Interest__c.Street_Address__c}" />
-                    <label>City<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.City__c}" />
-                    <label>State<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.State__c}" />
-                    <label>Zip Code<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Zip_Code__c}" />
-                    <label>Email<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Email__c}" />
-                    <label>Website URL<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Website_URL__c}" />
-                    <label>Main Contact Name<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Main_Contact__c}" />
-                    <label>Main Contact Email<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Phone_Number__c}" />
-                    <label class="longLabel">ARE YOU CURRENTLY QUALIFIED AS A TAX EXEMPT NON PROFIT PUBLIC CHARITY PER SECTION 501(C)3 OF THE IRS?<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField style="width:100px;" value="{!Letter_Of_Interest__c.Qualified_Tax_Exempt_NGO_501c3_IRS__c}" />
-                    <label class="longLabel">PROGRAM DESCRIPTION FOR WHICH YOU SEEK A GRANT<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Program_Description_For_The_Grant__c}" />
-                    <label class="longLabel">GRANT AMOUNT REQUESTED<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Amount__c}" />
-                    <label class="longLabel">APPROXIMATE DATE WHEN GRANT FUNDING IS REQUESTED<abbr class="slds-required" title=""> *</abbr></label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.Grant_Request_Date__c}" />
-                    <div class="fileContainer">
-                        <label class="longLabel">Add an Attachment</label>
-                        <apex:inputFile value="{!file}" fileName="{!fileName}"/>
-                    </div>
-                    <label class="longLabel">How did you hear about us?</label>
-                    <apex:inputField value="{!Letter_Of_Interest__c.How_Did_You_Hear_About_Us__c}" />
-                </div>
+            <div style="display:{!IF(alreadySubmitted, 'block', 'none')}">
+                <h3>You've Successfully Submitted the Letter of Interest! We'll review it and get back to you shortly.</h3>
             </div>
-            <div class="g-recaptcha" data-sitekey="{!siteKey}"></div>
-            <script src='https://www.google.com/recaptcha/api.js'></script>
-            <apex:commandButton action="{!verifyAndSave}" value="Submit"/>
+            <div style="display:{!IF(alreadySubmitted, 'none', 'block')}">
+                <section class="instructions">
+                    Prior to submitting a Letter of Interest, please read our <a href="https://www.fredericklenzfoundation.org/grants" target="_blank">Grant Policy Page</a>.
+                    The Lenz Foundation is unable to provide grants to organizations located outside of the United States and that do not meet the terms set out in the Grant Policy.
+
+                    Inquiries should be limited to two pages describing the organization and the purposes for which the requested funds would be used.
+                    If the committee on grant-making desires further information, it will issue a request for a formal Grant Proposal to be submitted.
+                    Thank you in advance for your understanding and interest.
+                </section>
+                <div class="slds-grid">
+                    <div class="slds-col">
+                        <label>Organization Name<abbr class="slds-required" title="Your company name"> *</abbr></label>
+                        <apex:inputField id="orgName" value="{!Letter_Of_Interest__c.Organization_Name__c}" />
+                        <label class="longLabel">Organization Description<abbr class="slds-required" title="Your company name"> *</abbr></label>
+                        <apex:inputField id="orgDescr" value="{!Letter_Of_Interest__c.Organization_Description__c}" />
+                        <label>Street Address<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField id="strAddress" value="{!Letter_Of_Interest__c.Street_Address__c}" />
+                        <label>City<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.City__c}" />
+                        <label>State<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.State__c}" />
+                        <label>Zip Code<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Zip_Code__c}" />
+                        <label>Email<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Email__c}" />
+                        <label>Website URL<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Website_URL__c}" />
+                        <label>Main Contact Name<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Main_Contact__c}" />
+                        <label>Main Contact Email<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Phone_Number__c}" />
+                        <label class="longLabel">ARE YOU CURRENTLY QUALIFIED AS A TAX EXEMPT NON PROFIT PUBLIC CHARITY PER SECTION 501(C)3 OF THE IRS?<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField style="width:100px;" value="{!Letter_Of_Interest__c.Qualified_Tax_Exempt_NGO_501c3_IRS__c}" />
+                        <label class="longLabel">PROGRAM DESCRIPTION FOR WHICH YOU SEEK A GRANT<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Program_Description_For_The_Grant__c}" />
+                        <label class="longLabel">GRANT AMOUNT REQUESTED<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Amount__c}" />
+                        <label class="longLabel">APPROXIMATE DATE WHEN GRANT FUNDING IS REQUESTED<abbr class="slds-required" title=""> *</abbr></label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.Grant_Request_Date__c}" />
+                        <div class="fileContainer">
+                            <label class="longLabel">Add an Attachment, If You Have More Info</label>
+                            <apex:inputFile value="{!file}" fileName="{!fileName}"/>
+                        </div>
+                        <label class="longLabel">How did you hear about us?</label>
+                        <apex:inputField value="{!Letter_Of_Interest__c.How_Did_You_Hear_About_Us__c}" />
+                    </div>
+                </div>
+                <div class="g-recaptcha" data-sitekey="{!siteKey}"></div>
+                <script src='https://www.google.com/recaptcha/api.js'></script>
+                <apex:commandButton action="{!verifyAndSave}" value="Submit"/>
+            </div>
         </apex:form>
         <apex:pageMessages />
     </div>

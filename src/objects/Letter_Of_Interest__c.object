@@ -230,14 +230,8 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>CA</fullName>
-                    <default>false</default>
-                    <label>CA</label>
-                </value>
-            </valueSetDefinition>
+            <restricted>true</restricted>
+            <valueSetName>States</valueSetName>
         </valueSet>
     </fields>
     <fields>
